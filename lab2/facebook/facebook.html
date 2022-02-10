@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Выполните вход или зарегистрируйтесь</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1c1e21
+        }
+        .box{
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+        .title-box{
+            width: 500px;
+        }
+        .title-box img{
+            width: 235px;
+            margin-bottom: -28px;
+        }
+        .title-box p{
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            color: #1c1e21;
+        }
+        .form-box form{
+            width: 360px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background: #fff;
+            margin-left: 60px;
+            box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1), 0 8px 16px rgb(0, 0, 0, 0.1);
+        }
+        .form-box input {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 14px 16px;
+            font-size: 17px;
+            box-sizing: border-box;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            outline: none;
+            color: #1d2129
+        }
+        .form-box input:focus{
+            box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+        }
+        .form-box button{
+            width:100%;
+            margin-bottom: 15px;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 16px;
+            cursor: pointer;
+            color: #fff;
+            font-weight: bold;
+        }
+        .form-box button:hover{
+            background-color: #166fe5;
+            border-color: #166fe5;
+        }
+        .form-box a{
+            color: #1877f2;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 20px;
+            margin-top: 5px;
+        }
+        .form-box a:hover{
+            text-decoration: underline;
+        }
+        .form-box hr{
+            border: 0.5px solid #dadde1;
+            margin-bottom: 15px;
+            background: #dadde1;
+        }
+        .form-box .create-btn a{
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            color:#fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: inline-block;
+            background: #42b72a;
+        }
+        .form-box .create-btn a:hover{
+            background: #36a420;
+        }
+       footer{
+           padding: 0 20%;
+           height: 30vh;
+       }
+       footer ul{
+           display: flex;
+           flex-wrap: wrap;
+           list-style-type: none;
+           padding: 8px 0;
+       }
+       footer ul:first-child{
+           border-bottom: 1px solid #dddfe2;
+       }
+       footer ul:first-child li:last-child button{
+           background-color: #f5f6f7;
+           border: 1px solid #ccd0d5;
+           outline: none;
+           color: #4b4f56;
+           padding: 0 8px;
+           font-weight: 700;
+           font-size: 16px;
+       }
+       footer ul li button:hover{
+           background-color: #f5f6f7;
+           border-color: #ccd0d5;
+       }
+       footer ul li, footer ul li a{
+           padding-right: 10px;
+           padding-bottom: 5px;
+           color: #8a8d91;
+           font-size: 12px;
+       }
+       footer ul li a {
+       text-decoration: none;
+       }
+
+       footer ul li a:hover {
+       text-decoration: underline;
+       }
+       footer small{
+           font-size: 11px;
+       }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="title-box">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+                <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+            </div>
+            <div class="form-box">
+                
+                <form action="#">
+                    <input type="text" placeholder="Электронный адрес или номер телефона">
+                    <input type="text" placeholder="Пароль">
+                    <button type="submit">Вход</button>
+                    <a href="#">Забыли пароль?</a>
+                    <hr>
+                    <div class="create-btn">
+                        <a href="#">Создать новый аккаунт</a>
+                    </div>
+                </form>
+                
+                <p><a href="#"><b>Создать Страницу</b></a> знаменитости, музыкальной группы или коипании.</p>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="page-footer">
+            <ul>
+                <li>Русский</li>
+                <li><a href="#">English(US)</a></li>
+                <li><a href="#">Türkçe</a></li>
+                <li><a href="#">Bahasa Indonesia</a></li>
+                <li><a href="#">中文(简体)</a></li>
+                <li><a href="#">Қазақша</a></li>
+                <li><a href="#">Deutsch</a></li>
+                <li><a href="#">한국어</a></li>
+                <li><a href="#">Shqip</a></li>
+                <li><a href="#">Español</a></li>
+                <li><a href="#">Português (Brasil)</a></li>
+                <li><button>+</button></li>
+
+            </ul>
+            <>
+            <ul>
+                <li><a href="#">Регистрация</a></li>
+                <li><a href="#">Вход</a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Facebook Lite</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Места</a></li>
+                <li><a href="#">Игры</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Facebook Pay</a></li>
+                <li><a href="#">Oculus</a></li>
+                <li><a href="#">Portal</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Bulletin</a></li>
+                <li><a href="#">Местные</a></li>
+                <li><a href="#">Благотворительные акции</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Центр информации о голосовании</a></li>
+                <li><a href="#">Группы</a></li>
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Создать рекламу</a></li>
+                <li><a href="#">Разработчикам</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Конфиденциальнось</a></li>
+                <li><a href="#">Файлы cookie</a></li>
+                <li><a href="#">Рекламные преподтения</a></li>
+                <li><a href="#">Условия использования</a></li>
+                <li><a href="#">Справка</a></li>
+            </ul>
+            <small>Meta © 2022</small>
+
+    </footer>
+
+</body>
+</html>

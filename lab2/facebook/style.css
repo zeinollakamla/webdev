@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;         
+}
+body {
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 400px;
+    height: 680px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-logo {
+    text-align: center;
+}
+
+.logo {
+    color: #1877f2;
+    font-size: 3.7rem;
+    letter-spacing: -3px;
+}
+
+.slogan {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: #fff;
+    width: 400px;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 6px;
+    box-shadow: 0 3px 5px 2px rgba(150, 150, 150 ,0.2);
+    text-align: center;
+}
+
+input, .btn-sign {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d2d2d2;
+    border-radius: 6px;
+}
+input::placeholder {
+    font-size: 1.0rem;
+}
+
+input:focus {
+    outline: 1px solid #1877f2;
+}
+
+input:focus::placeholder {
+    color: #c2c2c2;
+}
+
+.btn-sign {
+    background-color: #1877f2;
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 10px;
+}
+.btn-sign:hover {
+    background-color: #166fe5;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    font-size: 0.9rem;
+    color: #1877f2;
+}
+
+hr {
+    margin: 18px 0;
+    opacity: 0.3;
+}
+
+.create-new {
+    background-color: #42b72a;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.create-new:hover {
+    text-decoration: none;
+    background-color: #36a420;
+}
+
+.bottom-link {
+    width: 400px;
+    font-size: 0.9rem;
+    text-align: center; 
+}
+
+.create-page {
+    color: #000;
+    font-weight: bold; 
+}
+
+footer {
+    background-color: #fff;
+    height: 25%;
+    padding: 25px 35px;
+}
+
+ul {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    line-height: 1.7;
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 20px;
+    color: grey;
+}
+
+
+li button {
+    width: 30px;
+    height: 20px;
+    padding-top: 2px;
+    border: 1px solid #8a8d91;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+li a {
+    color: #8a8d91;
+}
+
+
+footer hr {
+    margin: 10px 220px;
+    font-size: 11px;
+    color: grey;
+}
+ small {
+    display: flex;
+    margin: 20px 220px;
+    font-size: 11px;
+    color: grey;
+}
+
+
+@media(min-width: 890px) {
+    .wrapper {
+        width: 90%;
+        max-width: 980px;
+        flex-direction: row;
+        padding-top: 70px;
+        justify-content: space-between;
+    }
+    .fb-logo {
+        text-align: left;
+        padding-top: 80px;
+        width: 450px;
+    }
+    .slogan {
+        font-size: 1.7rem;
+    }
+
+
+}
+ 
